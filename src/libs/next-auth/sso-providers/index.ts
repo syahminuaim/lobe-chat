@@ -1,3 +1,4 @@
+
 import Auth0 from './auth0';
 import Authelia from './authelia';
 import Authentik from './authentik';
@@ -12,6 +13,7 @@ import Logto from './logto';
 import MicrosoftEntraID from './microsoft-entra-id';
 import WeChat from './wechat';
 import Zitadel from './zitadel';
+import Supabase from './supabase';
 
 export const ssoProviders = [
   Auth0,
@@ -28,4 +30,5 @@ export const ssoProviders = [
   WeChat,
   Keycloak,
   Google,
+  Supabase,
 ];
